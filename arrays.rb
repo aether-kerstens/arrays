@@ -21,3 +21,16 @@ piercings.shift
 
 # method.unshift - this method will add 3.14 to the front list of important_numbers
 important_numbers.unshift 3.14
+
+# index positions
+print("The only trans main anime character is ", anime_main_characters[4], ".")
+# a simple index position element summoning the only transwoman in the list.
+puts(" ")
+print("My most favorite number ", my_favorite_numbers[5], " is a combination of ", my_favorite_numbers[1], " and ", my_favorite_numbers[2], ".")
+# a rather simple index position scenario that calls up each element in position in coordination to make sure they creat a sentance that makes sense.
+puts(" ")
+print("The first three digits of pi are ", important_numbers[0], ".")
+# here the first element was being added in previous code and I knew this so I purposefully chose 0.
+puts(" ")
+print("Computer, I have a bridge piercing, true or false? ", piercings[-2])
+# here because I knew I was deleting the first element I instead chose the index position that countds from the last element.
