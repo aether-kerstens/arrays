@@ -34,3 +34,10 @@ print("The first three digits of pi are ", important_numbers[0], ".")
 puts(" ")
 print("Computer, I have a bridge piercing, true or false? ", piercings[-2])
 # here because I knew I was deleting the first element I instead chose the index position that countds from the last element.
+
+# new method
+# method.reverse - reverse the order of elements in the array
+puts(anime_main_characters.reverse)
+# as you can see when you test the code, the method will reverse the order of elements in this case the names, and thus spit out a reversed list
+# I have bookmarked the source for myself but include it here for others to use [https://www.freecodecamp.org/news/common-array-methods-in-ruby/]
+# Thank you, I hope this has been as helpful for you as it has been for me.
